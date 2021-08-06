@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="" />
+    <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Animations/RobotBoyJump03.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Animations/RobotBoyJump07.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Animations/RobotBoyJump08.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Animations/RobotBoyJump10.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Animations/RobotBoyJump11.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/PhysicsMaterials/Slippery.physicsMaterial2D" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Prefabs/Killzone.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Prefabs/Platform12x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Scripts/Restarter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Scripts/Restarter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Sprites/RobotBoyDeathSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Sprites/RobotBoyJumpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/2D/Sprites/RobotBoyRunSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/CharacterController2D.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/FirstPersonCharacter/Audio/Footstep03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/FirstPersonCharacter/Audio/Jump.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/FirstPersonCharacter/Prefabs/RigidBodyFPSController.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/RollerBall/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/RollerBall/Prefabs/RollerBall.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/RollerBall/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/ThirdPersonCharacter.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/ThirdPersonCharacter/Materials/EthanGrey.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanOcclusion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Sprites/ButtonAcceleratorOverSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Sprites/ButtonBrakeUpSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Sprites/ButtonResetSprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/CrossPlatformInput/Sprites/TouchpadSprite.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Editor/Water/Water4/PlanarReflectionEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/LightCookies/Textures/LightSoftCookie.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/LightFlares/Flares/Sun.flare.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors/Materials/LightProjector.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/Projectors/Textures/Falloff.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/TessellationShaders/Scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/TessellationShaders/Textures/CliffHeight.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Effects/ToonShading/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD1/FacingLeaves_4.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop Materials/LOD2/Branches_1.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/PalmFrond.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/Billboard.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Branches_1.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Branches_0.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD2/Fronds_2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Materials/WaterBasicNighttime.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Models/WaterBasicPlane.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Prefabs/WaterBasicDaytime.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNighttimeGradient.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water/Water/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water/Water/Materials/WaterPlaneMaterial.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water/Water/Textures/WaterProNighttimeGradient.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Materials/ParticleDuststorm.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Materials/ParticleFirecloud.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Materials/ParticleSmokeBlack.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Scripts/Hose.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Textures/ParticleFlare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/ParticleSystems/Textures/SplashesLargeParticle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/PhysicsMaterials/Metal.physicmaterial" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Materials/NavyGrid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Materials/YellowSmooth.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Models/CubePrototype04x04x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Models/FloorPrototype04x01x04.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Models/PillarPrototype01x02x01.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/BlockPrototype04x04x04.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/CubePrototype02x02x02.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/CubePrototype04x04x04.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/JoinMidPrototype04x06x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/JoinOuterPrototype02x06x02.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Prefabs/PillarPrototype01x02x01.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Textures/GridEmissive.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Textures/SwatchMauveAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Prototyping/Textures/SwatchPinkDAlbedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/CurveControlledBob.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/FPSCounter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/Prefabs/FramerateCounter.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/SimpleMouseRotator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/TimedObjectDestructor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Utility/WaypointCircuit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Animation/JetGearLowered.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Animation/JetGearRaised.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Materials/AircraftWingsPropellerBlurGrey.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Materials/ParticleContrail.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Models/AircraftWingsJet.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Audio/DecelerationHigh.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Materials/SkyCarWheelWhite.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Textures/SkyCarBodyOcclusion.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Plugins/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/GingerMoving.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/GingerMoving.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +160,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1wMBPxcEtnVsVWn1l12n1ZrVnnQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,6 +216,8 @@
       <updated>1628258565110</updated>
       <workItem from="1628258566797" duration="229000" />
       <workItem from="1628259301785" duration="152000" />
+      <workItem from="1628261649459" duration="826000" />
+      <workItem from="1628262850434" duration="389000" />
     </task>
     <servers />
   </component>
@@ -62,8 +226,21 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
