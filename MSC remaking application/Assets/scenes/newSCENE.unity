@@ -2125,8 +2125,9 @@ GameObject:
   - component: {fileID: 966378029}
   - component: {fileID: 966378028}
   - component: {fileID: 966378027}
+  - component: {fileID: 966378031}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Ginger Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,7 +2184,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 966378024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.59, y: -0.51, z: 0}
+  m_LocalPosition: {x: -2.59, y: 2.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2207,7 +2208,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &966378028
 CapsuleCollider2D:
@@ -2266,6 +2267,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &966378031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 966378024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6511a900b93bd488cfa33ea94ba193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runningSpeed: 5
+  jumpingSpeed: 20
+  climbingSpeed: 5
 --- !u!1 &1871177253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,7 +2375,7 @@ GameObject:
   - component: {fileID: 1910892100}
   - component: {fileID: 1910892099}
   - component: {fileID: 1910892098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +2833,7 @@ Tilemap:
   - first: {x: 2, y: -3, z: 0}
     second:
       m_TileIndex: 5
-      m_TileSpriteIndex: 5
+      m_TileSpriteIndex: 11
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_ObjectToInstantiate: {fileID: 0}
@@ -3036,8 +3051,8 @@ Tilemap:
     m_Data: {fileID: 21300012, guid: e42203bc86e446548b1580c5343b415d, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300014, guid: e42203bc86e446548b1580c5343b415d, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 21300002, guid: e42203bc86e446548b1580c5343b415d, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 5
     m_Data: {fileID: 21300052, guid: e42203bc86e446548b1580c5343b415d, type: 3}
   - m_RefCount: 2
@@ -3048,8 +3063,8 @@ Tilemap:
     m_Data: {fileID: 21300024, guid: e42203bc86e446548b1580c5343b415d, type: 3}
   - m_RefCount: 11
     m_Data: {fileID: 21300022, guid: e42203bc86e446548b1580c5343b415d, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300002, guid: e42203bc86e446548b1580c5343b415d, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300056, guid: e42203bc86e446548b1580c5343b415d, type: 3}
   - m_RefCount: 4
@@ -3144,7 +3159,7 @@ CompositeCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
