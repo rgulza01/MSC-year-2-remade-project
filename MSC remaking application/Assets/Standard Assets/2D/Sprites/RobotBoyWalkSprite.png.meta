@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 289d79af06d191147a80618e1ff6bd85
+guid: feda0c18015b3284cabbc0da85254f9a
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 21300000
-    second: SPA_Background brown tint_0
+    second: RobotBoyWalk00
   - first:
       213: 21300002
-    second: SPA_Background brown tint_1
+    second: RobotBoyWalk01
   - first:
       213: 21300004
-    second: SPA_Background brown tint_2
+    second: RobotBoyWalk02
   - first:
       213: 21300006
-    second: SPA_Background brown tint_3
+    second: RobotBoyWalk03
   - first:
       213: 21300008
-    second: SPA_Background brown tint_4
+    second: RobotBoyWalk04
   - first:
       213: 21300010
-    second: SPA_Background brown tint_5
+    second: RobotBoyWalk05
   - first:
       213: 21300012
-    second: SPA_Background brown tint_6
+    second: RobotBoyWalk06
   - first:
       213: 21300014
-    second: SPA_Background brown tint_7
+    second: RobotBoyWalk07
   - first:
       213: 21300016
-    second: SPA_Background brown tint_8
+    second: RobotBoyWalk08
   - first:
       213: 21300018
-    second: SPA_Background brown tint_9
+    second: RobotBoyWalk09
   - first:
       213: 21300020
-    second: SPA_Background brown tint_10
+    second: RobotBoyWalk10
   - first:
       213: 21300022
-    second: SPA_Background brown tint_11
+    second: RobotBoyWalk11
   - first:
       213: 21300024
-    second: SPA_Background brown tint_12
+    second: RobotBoyWalk12
   - first:
       213: 21300026
-    second: SPA_Background brown tint_13
+    second: RobotBoyWalk13
   - first:
       213: 21300028
-    second: SPA_Background brown tint_14
+    second: RobotBoyWalk14
   - first:
       213: 21300030
-    second: SPA_Background brown tint_15
+    second: RobotBoyWalk15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: 1
+  textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,351 +120,387 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
+    buildTarget: iPhone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: 2
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: BlackBerry
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WP8
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPA_Background brown tint_0
+      name: RobotBoyWalk00
       rect:
         serializedVersion: 2
         x: 0
-        y: 116
-        width: 32
-        height: 32
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 715e2b2680c6f1d40909ddb7a78d03d0
+      spriteID: 02305410000000000800000000000000
       internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_1
+      name: RobotBoyWalk01
       rect:
         serializedVersion: 2
-        x: 38
-        y: 116
-        width: 32
-        height: 32
+        x: 275
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7288a815a4349bb4b80878e2ca92dda2
+      spriteID: 22305410000000000800000000000000
       internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_2
+      name: RobotBoyWalk02
       rect:
         serializedVersion: 2
-        x: 76
-        y: 116
-        width: 32
-        height: 32
+        x: 550
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a71da557b8e4f1b4c96a92a11a2fb215
+      spriteID: 42305410000000000800000000000000
       internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_3
+      name: RobotBoyWalk03
       rect:
         serializedVersion: 2
-        x: 114
-        y: 116
-        width: 32
-        height: 32
+        x: 825
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cc73a64d535e18944adda97a62ed7050
+      spriteID: 62305410000000000800000000000000
       internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_4
+      name: RobotBoyWalk04
       rect:
         serializedVersion: 2
-        x: 0
-        y: 78
-        width: 32
-        height: 32
+        x: 1100
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5cbc05f69ed04014d81a7f9a1497ffdf
+      spriteID: 82305410000000000800000000000000
       internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_5
+      name: RobotBoyWalk05
       rect:
         serializedVersion: 2
-        x: 38
-        y: 78
-        width: 32
-        height: 32
+        x: 1375
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 075bd333a9e95e2468727770e2e9917a
+      spriteID: a2305410000000000800000000000000
       internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_6
+      name: RobotBoyWalk06
       rect:
         serializedVersion: 2
-        x: 76
-        y: 78
-        width: 32
-        height: 32
+        x: 1650
+        y: 1773
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7c1ba651468cdb74c965124b900c57ba
+      spriteID: c2305410000000000800000000000000
       internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_7
+      name: RobotBoyWalk07
       rect:
         serializedVersion: 2
-        x: 114
-        y: 78
-        width: 32
-        height: 32
+        x: 0
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8669c7f9176b1f7479d61a042f2ab50d
+      spriteID: e2305410000000000800000000000000
       internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_8
+      name: RobotBoyWalk08
       rect:
         serializedVersion: 2
-        x: 0
-        y: 40
-        width: 32
-        height: 32
+        x: 275
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e6418e0725f28a14292a5eb841db9d65
+      spriteID: 03305410000000000800000000000000
       internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_9
+      name: RobotBoyWalk09
       rect:
         serializedVersion: 2
-        x: 38
-        y: 40
-        width: 32
-        height: 32
+        x: 550
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 21af14c3bae06be49aafa2542ca6b045
+      spriteID: 23305410000000000800000000000000
       internalID: 21300018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_10
+      name: RobotBoyWalk10
       rect:
         serializedVersion: 2
-        x: 76
-        y: 40
-        width: 32
-        height: 32
+        x: 825
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 612e722e35c10bf4e89b03a9603a606e
+      spriteID: 43305410000000000800000000000000
       internalID: 21300020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_11
+      name: RobotBoyWalk11
       rect:
         serializedVersion: 2
-        x: 114
-        y: 40
-        width: 32
-        height: 32
+        x: 1100
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fd46ff5cc9e14654b82fa448c3e0bf16
+      spriteID: 63305410000000000800000000000000
       internalID: 21300022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_12
+      name: RobotBoyWalk12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
-        width: 32
-        height: 32
+        x: 1375
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 40c89dfe1758dce47b9251946125139c
+      spriteID: 83305410000000000800000000000000
       internalID: 21300024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_13
+      name: RobotBoyWalk13
       rect:
         serializedVersion: 2
-        x: 38
-        y: 2
-        width: 32
-        height: 32
+        x: 1652
+        y: 1498
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b7c708f56cff4b343b01af0c8f8d3259
+      spriteID: a3305410000000000800000000000000
       internalID: 21300026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_14
+      name: RobotBoyWalk14
       rect:
         serializedVersion: 2
-        x: 76
-        y: 2
-        width: 32
-        height: 32
+        x: 0
+        y: 1223
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a7a3fe6e88e79cd41a0eb62f42feb3aa
+      spriteID: c3305410000000000800000000000000
       internalID: 21300028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Background brown tint_15
+      name: RobotBoyWalk15
       rect:
         serializedVersion: 2
-        x: 114
-        y: 2
-        width: 32
-        height: 32
+        x: 275
+        y: 1223
+        width: 275
+        height: 275
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c79eb8425a882c043bc1335a290ea684
+      spriteID: e3305410000000000800000000000000
       internalID: 21300030
       vertices: []
       indices: 
