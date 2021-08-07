@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     //values --> config
     [SerializeField] float runningSpeed = 5f;
-    [SerializeField] float jumpingSpeed = 300f;
+    [SerializeField] float jumpingSpeed = 40f;
     [SerializeField] float climbingSpeed = 5f;
     float startingGravityForLadderClimbing;
 
@@ -37,7 +37,7 @@ public class Player : MonoBehaviour
         //the order doesn't matter 
         Jump();
         Run();
-        // Climb();
+        Climb();
         FlipPlayer();
     }
 
@@ -94,10 +94,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    /*
+    
     private void Climb()
     {
-        if (myRigidbody.IsTouchingLayers(LayerMask.GetMask("Climbing")))
+        if (!myRigidbody.IsTouchingLayers(LayerMask.GetMask("Ladder")))
+        {
+            myAnimator.SetBool("climb param", false);
+            myRigidbody.gravityScale = startingGravityForLadderClimbing;
+            return;
+            
+        } else
         {
             float direction = CrossPlatformInputManager.GetAxis("Vertical");
             Vector2 yVelocity = new Vector2(myRigidbody.velocity.x, direction * climbingSpeed);
@@ -105,13 +111,10 @@ public class Player : MonoBehaviour
             bool playerHasVenticalSpeed = Math.Abs(myRigidbody.velocity.y) > Mathf.Epsilon;
             myAnimator.SetBool("climb param", playerHasVenticalSpeed);
             myRigidbody.gravityScale = 0f;
-        }
-        else //if you are not touching the layer
-        {
-            myAnimator.SetBool("climb param", false);
-            myRigidbody.gravityScale = startingGravityForLadderClimbing;
+            // myAnimator.SetBool("climb param", false);
+            // myRigidbody.gravityScale = startingGravityForLadderClimbing;
         }
          }
-        */
+    /* */
 
 }
