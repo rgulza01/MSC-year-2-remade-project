@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     float startingGravityForLadderClimbing;
 
     //states
-    private bool isAlive = true;
+    //private bool isAlive = true;
 
 
     void Start()
@@ -114,7 +114,5 @@ public class Player : MonoBehaviour
             // myAnimator.SetBool("climb param", false);
             // myRigidbody.gravityScale = startingGravityForLadderClimbing;
         }
-         }
-    /* */
-
+    }
 }
