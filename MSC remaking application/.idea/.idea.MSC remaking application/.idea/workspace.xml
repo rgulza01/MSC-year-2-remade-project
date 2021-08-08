@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MainCard.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SceneController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/duplicate of first.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/duplicate of first.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wMBPxcEtnVsVWn1l12n1ZrVnnQ" />
@@ -94,6 +96,7 @@
       <workItem from="1628336930990" duration="1143000" />
       <workItem from="1628359316771" duration="116000" />
       <workItem from="1628378555015" duration="2601000" />
+      <workItem from="1628463790484" duration="2028000" />
     </task>
     <servers />
   </component>
