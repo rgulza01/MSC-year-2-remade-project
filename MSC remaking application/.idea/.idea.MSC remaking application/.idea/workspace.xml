@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/LevelExit.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/Exit+Pixelated.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/Exit+Pixelated.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/button for help.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/button for help.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/objects/Button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/objects/Button.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/sprites/tiles/New Palette.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/sprites/tiles/New Palette.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainCard.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/duplicate of first.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/duplicate of first.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -94,6 +93,7 @@
       <workItem from="1628283415106" duration="4797000" />
       <workItem from="1628336930990" duration="1143000" />
       <workItem from="1628359316771" duration="116000" />
+      <workItem from="1628378555015" duration="2601000" />
     </task>
     <servers />
   </component>
