@@ -11,45 +11,30 @@ public class Overlap : MonoBehaviour
     float screenX, screenY;
     Vector3 position;
 
-    //new addition 
-    //D = delta
-    public float CountD;
-    //public GameObject ballPrefab;
-   
-
-    //________________________________________________________previously
-    
-    //number of balls to generate 
+    public int CountD;
     int numBallsToGenerate;
     public List<GameObject> ballList;
 
-    
-    // Start is called before the first frame update
     void Start()
     {
         numBallsToGenerate = Random.Range(2, 10);
-        generateInRandomPosition();
+        WrappedCoroutine();
     }
 
-    //this can't be used because this would produce infinite
-    // void Update()
-    // {
-    //     CountD -= Time.deltaTime;
-    //     if (CountD <= 0)
-    //     {
-    //         generateInRandomPosition();
-    //         CountD = 2f;
-    //     }
-    // }
-    public void generateInRandomPosition()
+    public void WrappedCoroutine()
     {
+        StartCoroutine(Coroutine());
+    }
+    
+    public IEnumerator Coroutine()
+    {
+        WaitForSeconds wait = new WaitForSeconds(1f);
         var c = quadForBoundary.GetComponent<MeshCollider>();
         GameObject ball;
         numBallsToGenerate = Random.Range(1, 10);
             
         for (int i = 0; i < numBallsToGenerate; i++)
         {
-            //this is supposed to get random item, but I dont need random item, I  have 1
             ball = ballList[0];
             
             //next step is finding random x and y 
@@ -57,6 +42,8 @@ public class Overlap : MonoBehaviour
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
             position = new Vector3(screenX, screenY, 0f);
             Instantiate(ball, position, Quaternion.identity);
+            yield return wait;
+
         }
     }
     
