@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabbed/Weight.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabbed/Weight.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Overlap.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Circle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Circle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/Square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/objects/Square.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/retrying random spawn.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/retrying random spawn.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelExit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelExit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/main menu 1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/main menu 1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/random spawn.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/random spawn.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SceneController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Overlap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Overlap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +100,7 @@
       <workItem from="1628378555015" duration="2601000" />
       <workItem from="1628463790484" duration="3630000" />
       <workItem from="1628467472953" duration="1027000" />
-      <workItem from="1628468763971" duration="4063000" />
+      <workItem from="1628468763971" duration="5739000" />
     </task>
     <servers />
   </component>

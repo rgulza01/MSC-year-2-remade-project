@@ -7,7 +7,7 @@ public class Overlap : MonoBehaviour
 {
 
     //number of balls to generate 
-    public int numBallsToGenerate;
+    public int numBallsToGenerate = 3;
 
     //_____________trying with list__________________
     public List<GameObject> ballList;
@@ -18,8 +18,7 @@ public class Overlap : MonoBehaviour
     void Start()
     {
         generateInRandomPosition();
-        numBallsToGenerate = Random.Range(0, 10);
-        print("random number of balls to generate was "+ numBallsToGenerate);
+        print("number of balls is  "+ numBallsToGenerate);
     }
 
     public void generateInRandomPosition()
@@ -31,13 +30,12 @@ public class Overlap : MonoBehaviour
         float screenX, screenY;
         Vector3 position;
         print("its reaching here");
-        
-        //PROBLEM FROM HEREEEEEEEEEEEEEEEEEEEEEEEEEEEE
         for (int i = 0; i < numBallsToGenerate; i++)
         {
+            print("why is this not cming");
+
             //this is supposed to get random item, but I dont need random item, I  have 1
             ball = ballList[ballIndex];
-            print(i);
             
             //next step is finding random x and y 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
