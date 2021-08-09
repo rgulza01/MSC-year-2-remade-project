@@ -5,12 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0ab5270-cd00-452f-bcfc-3be8c37e8cab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/retrying random spawn.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Levels/retrying random spawn.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ballPreab.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ballPreab.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/ball.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/sprites/ball.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MSC remaking application/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/retring random spawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelExit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelExit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelExit.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelExit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainCard.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainCard.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabbed/Weight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabbed/Weight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabbed/ball.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabbed/ball.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabbed/ball.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabbed/ball.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SceneController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Overlap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Overlap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sprites/Circle.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +43,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BallPrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ballPreab.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Utility/SimpleActivatorMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1wMBPxcEtnVsVWn1l12n1ZrVnnQ" />
@@ -100,7 +113,7 @@
       <workItem from="1628378555015" duration="2601000" />
       <workItem from="1628463790484" duration="3630000" />
       <workItem from="1628467472953" duration="1027000" />
-      <workItem from="1628468763971" duration="5739000" />
+      <workItem from="1628468763971" duration="9406000" />
     </task>
     <servers />
   </component>

@@ -5,43 +5,57 @@ using UnityEngine.Assertions.Must;
 
 public class Overlap : MonoBehaviour
 {
+    
+    public GameObject quadForBoundary;
+    MeshCollider c; 
+    float screenX, screenY;
+    Vector3 position;
 
+    //new addition 
+    //D = delta
+    public float CountD;
+    //public GameObject ballPrefab;
+   
+
+    //________________________________________________________previously
+    
     //number of balls to generate 
-    public int numBallsToGenerate = 3;
-
-    //_____________trying with list__________________
+    int numBallsToGenerate;
     public List<GameObject> ballList;
 
-    public GameObject quadForBoundary;
     
     // Start is called before the first frame update
     void Start()
     {
+        numBallsToGenerate = Random.Range(2, 10);
         generateInRandomPosition();
-        print("number of balls is  "+ numBallsToGenerate);
     }
 
+    //this can't be used because this would produce infinite
+    // void Update()
+    // {
+    //     CountD -= Time.deltaTime;
+    //     if (CountD <= 0)
+    //     {
+    //         generateInRandomPosition();
+    //         CountD = 2f;
+    //     }
+    // }
     public void generateInRandomPosition()
     {
-        int ballIndex = 0;
+        var c = quadForBoundary.GetComponent<MeshCollider>();
         GameObject ball;
-        
-        MeshCollider c = quadForBoundary.GetComponent<MeshCollider>();
-        float screenX, screenY;
-        Vector3 position;
-        print("its reaching here");
+        numBallsToGenerate = Random.Range(1, 10);
+            
         for (int i = 0; i < numBallsToGenerate; i++)
         {
-            print("why is this not cming");
-
             //this is supposed to get random item, but I dont need random item, I  have 1
-            ball = ballList[ballIndex];
+            ball = ballList[0];
             
             //next step is finding random x and y 
             screenX = Random.Range(c.bounds.min.x, c.bounds.max.x);
             screenY = Random.Range(c.bounds.min.y, c.bounds.max.y);
             position = new Vector3(screenX, screenY, 0f);
-            print(position);
             Instantiate(ball, position, Quaternion.identity);
         }
     }
