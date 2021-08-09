@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,6 +16,7 @@ public class BallPrefab : MonoBehaviour
     void Start()
     {
         //problem: had to clear the list here and not in the class where originally instantiated
+        FindObjectOfType<Spawner>();
         reference.IDlist.Clear();
     }
     private void OnMouseDown()
@@ -33,4 +34,4 @@ public class BallPrefab : MonoBehaviour
         collided = true;
     }
  
-}
+}*/

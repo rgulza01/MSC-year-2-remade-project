@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -25,6 +25,7 @@ public class Spawner : MonoBehaviour
     {
         borders = background.GetComponent<MeshCollider>();
         WrappedCoroutine();
+        numToGenerate =  Random.Range(2,12);
     }
  
     /// <summary>
@@ -45,7 +46,7 @@ public class Spawner : MonoBehaviour
         WaitForSeconds wait = new WaitForSeconds(1f);
  
         int randomItemFromListIndex;
-        GameObject randomItemFromList;
+        GameObject randomItemFromList; 
  
         int idNum = 1;
         for (int i = 0; i < numToGenerate; i++)
@@ -78,7 +79,7 @@ public class Spawner : MonoBehaviour
             }
         }
         totalBalls = NewlistOfObjects.Count;
-        print("total balls minus those collided: " + totalBalls);
+        print("total balls minus those collided: " + totalBalls); //this keeps being 0
  
         //loop to make them appear on screen and check the IDs
         for (int i = 0; i < totalBalls; i++)
@@ -97,4 +98,4 @@ public class Spawner : MonoBehaviour
         SceneManager.LoadScene("random spawn");
     }
  
-}
+}*/
